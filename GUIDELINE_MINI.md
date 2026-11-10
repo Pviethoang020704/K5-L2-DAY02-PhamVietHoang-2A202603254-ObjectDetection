@@ -22,6 +22,6 @@
 
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
-| `drive_003.jpg` |xe khách bị che mất một phần | | |
-| `drive_...` | | | |
-| `drive_...` | | | |
+| `drive_003.jpg` |xe khách bị che mất một phần |vẽ box xung quanh không gồm phần bị cắt |Xe vẫn nhận diện được nên vẫn gán nhãn, box chỉ bao quanh phần xe nhìn thấy |
+| `drive_044.jpg` |khó phân biệt xe van và car |Chọn class theo hình dáng thực tế: thân cao, vuông là van; thân thấp, kiểu sedan/hatchback là car |Ưu tiên đặc điểm hình dáng bên ngoài, không suy đoán khi thiếu thông tin |
+| `drive_019.jpg` |khó phân biệt xe bus và van |Chọn bus nếu thân xe dài, cao, có nhiều cửa sổ chở khách; chọn van nếu thân xe ngắn và nhỏ gọn |Dựa vào kích thước, cấu trúc thân xe và đặc điểm khoang hành khách |
